@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Hodiny</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="600" height="600" style="background-color: navy; "></canvas>
+
+    <p id="demo"></p>
+
+    <script src="hodiny.js"></script>
+    <script>
+        var d = new Date();
+        document.getElementById("demo").innerHTML = d.toDateString();
+        document.getElementById("demo").style.color = 'gray';
+    </script>
+
+</body>
+</html>
